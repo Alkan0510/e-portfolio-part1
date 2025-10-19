@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Alkan's E-Portfolio!
+		</title>
+		<link rel="stylesheet" href="portfolio.css">
+
+	</head>
+	<body>
+	<nav>
+		<img src="cinnamoroll.png" class="logo" onclick="showSection('home')">
+		<button onclick="showSection('ict')"><p>ICT Lessons</p></button>
+		<button onclick="showSection('ap')"><p>AP Interactive Notebook</p></button>
+		<button onclick="showSection('events')"><p>Events</p></button>
+	</nav>
+	<section id="home" class="active">
+		<h1 class="h1">Welcome to my webpage!</h1>
+		<div class="main-section">
+			<div class="intro">
+				<img src="ALGER.jpg" class="alger">
+			</div>
+			<div class="sub-section">
+				<div class="introduction">
+					<p>Hi, My name is Alger Kyan P. David, I am 14 years old at the time of encoding this mwahaha. My birthday is on May 10 (wow shocking, no one greets from the batch gc (please don't greet me))  <br><br> I like coding more than anything else in the world, though not on this side of developing, I despise front-end coding, I love back-end developing though. Currently I'm self-learning on Python for experience and AutoCad since it's needed for Technolympiads at the time of encoding this lol. I love Jazz, I love music that gives off a calm vibe, artists I can name is Wanuka (goated artist), Seycara (goated artist), Yellow Cherry Jam (goated lofi artist), some of Acousphere's guitar covers, Forrest Frank (goated artist) and much more! Just ask me face-to-face and I'll be willing to give you songs that fit this genre of mine!  </p>
+				</div>
+				<div class="introduction">
+					<p><b>Circle of Friends:</b> <br><br> I have a lot of circle of friends, as I am an extrovert. Back then, I didn't have much friends because I liked being alone. But now it's balanced out, sometimes I want to be with my friends and sometimes I just wanna do things alone :)</p>
+				</div>
+				<div class="sub-sub-section">
+					<div class="slideshow">
+						<input type="radio" name="slide" id="slide1" checked>
+						<input type="radio" name="slide" id="slide2">
+						<input type="radio" name="slide" id="slide3">
+						<div class="slides">
+							<img src="slide1.jpg" alt="Slide 1">
+							<img src="slide2.jpg" alt="Slide 2">
+							<img src="slide3.jpg" alt="Slide 3">
+						</div>
+						<div class="nav">
+							<label for="slide1"></label>
+							<label for="slide2"></label>
+							<label for="slide3"></label>
+						</div>
+					</div>
+					<video src="video1.mp4" controls class="video1"> </video> 
+				</div>
+				</div>
+			</div>
+	    </div>
+		<h1 class="h1"> Family </h1>
+		<div class="family">
+			<div class="family-pics">
+				<img src="FAMILY1.jpg" alt="1st Family Pic">
+				<img src="FAMILY2.jpg" alt="2nd Family Pic">
+			</div>
+		</div>
+		<br>
+		<div class="introduction">
+				<p> Here's DaFam! This is my family, they're the ones who formed the guy I am today, they support me whenever they can and they love me just like how I love them! My family is generally caring to others and we are a God-fearing family! Our whole family is Christian. Every Sunday, me and my siblings and mother go to our local church, Berean Bible Baptist Church (both pics up there) while our father goes to CCF Southmall. We mostly stay at home unless invited to go somewhere by our friends or relatives. Every Saturaday, me and my brother go to church to go distribute gospel tracts in the morning, chorale practice and discipleship (Only me) in the afternoon, and listen to the Adult Choir practice at night, while our father goes to his band practice in CCF. Enough about me, Let's visit the other sections of this webpage! </p>
+		</div>
+    </section>
+
+    <section id="ict">
+    <p><h1 class="h1"> ICT Lessons <br> Main Page </h1> </p>
+		<div class="main-section">
+			<div class="content">
+				<p> <h2> Table of Content: <h2> </p>
+				<a onclick="loadICTLesson('intro')"> <button> <p> Intro To CSS </p></button> </a><br>
+				<a onclick="loadICTLesson('stylesheets')"> <button> <p> Style Sheets </p></button></a><br>
+				<a onclick="loadICTLesson('intro2')"> <button> <p> Intro to CSS Part II </p></button> </a><br>
+				<a onclick="loadICTLesson('intro3')"> <button> <p> Intro to CSS Part III </p></button> </a><br>
+				<a onclick="loadICTLesson('intro4')"> <button> <p> Intro to CSS Part IV </p></button> </a><br>
+				<a onclick="loadICTLesson('intro5')"> <button> <p> Intro to CSS Part V </p></button> </a>
+			</div>
+			<div class="introduction">
+				<p>Hello, This is the main page for the lessons in ICT, here on the left of this text is the table of contents, simply click on the button for you to be transferred into the desired lesson HTML, this was a <em>meh</em> quarter so far, just an intro on CSS, it did bring some challenges at the latter though. I don't know what to put under this text so, ggs, this is so PEAK. </p>
+			</div>
+		</div>
+		<div id="ict-lesson-output" class="lesson-content"></div>
+    </section>
+
+    <section id="ap">
+      <p><h1 class="h1"> AP Interactive Notebook <br> Main Page </h1> </p>
+		<div class="main-section">
+			<div class="content">
+				<p> <h2> Table of Content: <h2> </p>
+				<a onclick="loadAPLesson('demand')"> <button> <p> Demand </p></button> </a><br>
+				<a onclick="loadAPLesson('supply')"> <button> <p> Supply </p></button></a><br>
+				<a onclick="loadAPLesson('elasticity')"> <button> <p> Price Elasticity </p></button> </a><br>
+				<a onclick="loadAPLesson('equilibrium')"> <button> <p> Market Equilibrium </p></button> </a><br>
+				<a onclick="loadAPLesson('marketStructures')"> <button> <p> Different Market Structures </p></button> </a><br>
+				<a onclick="loadAPLesson('governmentRegulation')"> <button> <p> Government's Role in Regulating in Everyday Life </p></button> </a>
+			</div>
+			<div class="introduction">
+				<p> Hello, welcome to my AP Interactive Webpage, in this section of the whole interactive webpage is the table of contents for AP in order for you to ACTUALLY look at the lessons we had this quarter and the reflection, this was honestly a fun quarter since it tackled about some concepts I like in general and found the lessons very easy, to further expand each lesson, you may click the box with the lessons name inside it. <br><br> The info in each lesson is what I took during class and what I understood at the time to make it easier, so don't expect a lot. Cheers! </p>
+			</div>
+		</div>
+		<div id="ap-lesson-output" class="lesson-content"></div>
+		<hr color="#91bad6" width="100%" size="5%">
+		<div class="reflection">
+			<h1 class="h1"> Reflection </h1>
+		</div>
+    </section>
+
+    <section id="events">
+		<h1 class="h1">Events Section</h1>
+		<div class="section1">
+		<h1 class="h1">Buwan ng Wika</h1>
+		</div>
+		<div class="introduction4">
+		<div class="section1a">
+			<div class="introduction3a">
+			<figure class="figure">
+				<img src="WIKA1.jpg" alt="Buwan ng Wika Picture 1" class="img">
+				<figcaption><p><b>Credits: Ang Paham</b></p></figcaption>
+			</figure>
+			<figure class="figure">
+				<img src="WIKA2.jpg" alt="Buwan ng Wika Picture 2" class="img">
+				<figcaption><p><b>Credits: Ang Paham</b></p></figcaption>
+			</figure>
+			</div>
+			<br>
+			<figure class="nofig">
+			<video src="WIKA.mp4" class="video" controls></video>
+			<figcaption><p><b>Credits: Ezekiel Aguilar</b></p></figcaption>
+			</figure>
+		</div>
+			<h1> Reflection </h1>
+			<p>The most important thing I learned from the event is that our language and traditions are living parts of our identities. I can apply what I learned by speaking Tagalog in daily conversations (like how I normally would in my house, I just speak English in class because most people use English as their language). I actively participated in this event by doing my best in the classroom-based declamation in front though we all know I suck at speaking in front. If i were to teach this subect to my classmate, I would use songs, poems, folk stories, or simple role-play activities. It is important to have an event per subject because themed activities focus attention, deepen our understanding towards that subject, and create emotional connections that help learning stick (in our head. Brain I suppose).</p>
+		</div>
+		<div class="section1">
+		<h1 class="h1">Intrams</h1>
+		</div>
+		<div class="introduction4">
+		<div class="section1a">
+			<div class="introduction3a">
+			<figure class="figure">
+				<img src="INTRAMS1.jpg" alt="Intrams Picture 1" class="img">
+				<figcaption><p><b>Credits: Keisha Mercado</b></p></figcaption>
+			</figure>
+			<figure class="figure">
+				<img src="INTRAMS2.jpg" alt="Intrams Picture 2" class="img">
+				<figcaption><p><b>Credits: Keisha Mercado</b></p></figcaption>
+			</figure>
+			</div>
+			<br>
+			<figure class="nofig">
+			<video src="INTRAMS.mp4" class="video-landscape" controls></video>
+			<figcaption><p><b>Credits: Keisha Mercado</b></p></figcaption>
+			</figure>
+		</div>
+			<h1> Reflection </h1>
+			<p>The most important thing I learned here is to not sacrifice yourself for others because there's still a slight chance of them losing (right, ANDREI?!), and to practice the sport beforehand. I can apply what I learned by preparing everything before I do an action. I actively participated in this event by joining the Table Tennis (Ping-Pong) Set A and take the major shots so Andrei has a shot to win (he lost due to coaching system though). To teach this to a classmate, I would organize small friendly games and debrief (what's debrief anyways) afterward to highlight teamwork, strategy, sportsmanship, and picking the right set. (yeaaaaaa, Andrei's definitely part of this reflection now). Having an event per subject is important because it provides hands-on practice, builds soft skills, and moticates students through active participation.</p>
+		</div>
+		<div class="section1">
+		<h1 class="h1">Science</h1>
+		</div>
+		<div class="introduction4">
+		<div class="section1a">
+			<div class="introduction3a">
+			<figure class="figure">
+				<img src="SCIENCE1.jpg" alt="Science Picture 1" class="img">
+				<figcaption><p><b>Credits: Ang Paham</b></p></figcaption>
+			</figure>
+			<figure class="figure">
+				<img src="SCIENCE2.jpg" alt="Science Picture 2" class="img">
+				<figcaption><p><b>Credits: Ang Paham</b></p></figcaption>
+			</figure>
+			</div>
+			<br>
+			<figure class="nofig">
+			<video src="SCIENCE.mp4" class="video-portrait" controls></video>
+			<figcaption><p><b>Credits: Sefie Grace</b></p></figcaption>
+			</figure>
+		</div>
+			<h1> Reflection </h1>
+			<p>The most important thing I learned from this event is that you should know when to go solo, or go as a group in making a research., as ALL of us got cooked in the research defense I can apply what I learned by either choosing the <b>BEST</b> teammates for research, or just to go solo if you're well-versed over your study. I actively participated in this event by defending our research (even though we FAILED because of one word in the title). If i were to teach this subject to my classmate, I would use short, safe hands-on expermients and clear explanations to show a scientific method in action. It's important to have an event per subject because practical demonstartions make abstract ideas concrete and spark curiosity that textbook reading alone may not.</p>
+		</div>
+		<div class="section1">
+		<h1 class="h1">Teacher's Day</h1>
+		</div>
+		<div class="introduction4">
+		<div class="section1a">
+			<div class="introduction3a">
+			<figure class="figure">
+				<img src="TEACHERS1.jpg" alt="Teachers Day Picture 1" class="img">
+				<figcaption><p><b>Credits: Fidelity</b></p></figcaption>
+			</figure>
+			<figure class="figure">
+				<img src="TEACHERS2.jpg" alt="Teachers Day Picture 2" class="img">
+				<figcaption><p><b>Credits: Fidelity</b></p></figcaption>
+			</figure>
+			</div>
+			<br>
+			<figure class="nofig">
+			<video src="TEACHERS.mp4" class="video-landscape" controls></video>
+			<figcaption><p><b>Credits: Fidelity</b></p></figcaption>
+			</figure>
+		</div>
+			<h1> Reflection </h1>
+			<p>The most important thing I learned from Teacher's Day is how much teachers invest on our learning and wellbeing, and how Ms. Gia, our adviser, is very loving and caring towards us. I can apply what I learned by showing appreciation, being respectful, and helping make the classroom a positive place for everyone (no one's gonna be left out, trust me). I actively participated by joining our class' intermission, but they didn't let me perform (what a sad day for Alger as this is his FIFTH time in a row signing up for an intermission but was never given a chance to, what a sad hobo). If I were to teach this event to my classmate, I would organize a short tribute activity and a discussion about the many roles teachers play in our lives (its a lot, you gotta appreciate them for it). Having an event per subject matters because it recognizes contibutions, strengthens school community, and reminds students why the event and its teachers matter.</p>
+		</div>
+		<div class="section1">
+		<h1 class="h1">AP</h1>
+		</div>
+		<div class="introduction4">
+		<div class="section1a">
+			<div class="introduction3a">
+			<figure class="figure">
+				<img src="AP1.jpg" alt="AP Picture 1" class="img">
+				<figcaption><p><b>Credits: No one, because it's MY Picture<br> if others use my photo without credit<br>they must die.</b></p></figcaption>
+			</figure>
+			<figure class="figure">
+				<img src="AP2.jpg" alt="AP Picture 2" class="img">
+				<figcaption><p><b>Credits: No one, because it's MY Picture<br> if others use my photo without credit<br>they must die.</b></p></figcaption>
+			</figure>
+			</div>
+			<br>
+			<br>
+			<br>
+			<figure class="nofig">
+			<video src="AP.mp4" class="video-landscape" controls></video>
+			<figcaption><p><b>Credits: Bela Paguigan</b></p></figcaption>
+			</figure>
+		</div>
+			<h1> Reflection </h1>
+			<p>The most important thing I learned from this event is that you REALLY should listen to the seminars they give and review the content they give for Quiz Bee (i got cooked on both quiz bees, yes the seminar had a QUIZ). I can apply what I learned by reviewing before a quiz, though I might rarely do this ngl (I just memorize in class while the lesson is happening so my cognitive load is just split to me memorizing and hearing, wait i feel like this is a different topic on the reason why i don't write notes that much...)... I actively participated in this event by answering the classroom-based quiz bee for this even (Kiel and Yeuffa REPRESENTATIVES ggs). If I were to teach this subject to my classmate, I would use examples like buying, saving, and deamnd and supply activities to explain economic ideasd clearly. It is important to have an event per subject because it allows students to experience how classroom lessons connect to real-life situations and develop practical skills for the future.</p>
+		</div>
+    </section>
+	<hr color="#91bad6" width="100%" size="5%">
+	<div class="music-center">
+		<p class="music-text"> Here's some music to listen to while you roam through my website! (Lower the volume down for your safety!)<br> This is Seycara's Full Album, Alice in Paris! </p>
+		<audio src="ALICE_IN_PARIS_ALBUM_SEYCARA.mp3" type="audio/mpeg" loop controls preload="auto"> </audio>
+	</div>
+	<script>
+			function showSection(sectionId) {
+				document.querySelectorAll('section').forEach(sc => {
+					sc.classList.remove('active');
+				});
+			document.getElementById(sectionId).classList.add('active');
+			localStorage.setItem('lastSection', sectionId);
+}
+		const ictLessons = {
+		intro: `
+	<h1 class="h1">Intro to CSS</h1>
+	<div class="section1">
+	<div class="whole-section1">
+	<div class="section1">
+		<h1 class="h1">What is CSS?</h1>
+		<div class="sub-section">
+			<div class="introduction2">
+				<ul>
+					<li><p>CSS stands for Cascading Style Sheets</p></li>
+					<li><p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</p></li>
+					<li><p>CSS saves a lot of work. It can control the layout of multiple web pages all at once</p></li>
+					<li><p>External stylesheets are stored in CSS files.</p></li>
+					<li><p>CSS is the language we use to style a Web page.</p></li>
+					<li><p>CSS separates content from design, making websites easier to maintain and more attractive.</p></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="section1">
+		<h1 class="h1">Why use CSS?</h1>
+		<div class="introduction">
+			<ul>
+				<li><p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. </p></li>
+				<li><p>Provides consistency across web pages.</p></li>
+				<li><p>Saves time: one CSS file can control multiple pages.</p></li>
+				<li><p>Improves accessibility and responsiveness.</p></li>
+				<li><p>Enhances design with layout, colors, and animations.</p></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	<div class="whole-section2">
+		<h1 class="h1">Layers of a Webpage</h1>
+		<div class="layers">
+		<img src="layers-of-a-webpage.jpg" alt="Layers of a Webpage" class="layers">
+		</div>
+		<div class="whole-section1">
+		<div class="introduction">
+			<ol reversed>
+				<li><p>Content Layer</p></li>
+				<li><p>Presentation Layer</p></li>
+				<li><p>Behaviour Layer</p></li>
+			</ol>
+		</div>
+		<div class="introduction">
+			<p> Just like how the elements of human body were layered and placed on top of each other–bones, muscles, veins, etc., to become a whole, the web page, is also composed of layers to make it whole. <br><br> Each layer of the webpage has its specific use or function in the web page. Each plays an important role to be able to attain the goal or objective of a particular website. </p>
+		</div>
+		</div>
+		<h1 class="h1">Content Layer</h1>
+		<div class="introduction">
+			<ul>
+				<li><p>Define and layout the text, images, animation, sound, ideo and everything you want to put in a web page with the use of tags</p></li>
+				<li><p>is the underlying HTML code of that page. Just as a house's frame creates a strong foundation upon which the rest of the house is built, a solid foundation of HTML creates a platform upon which a website can be created</p></li>
+				<br><br>
+				<p><b> Content Layer needs to have: </b></p>
+				<li><p>Text that is easy to understand</p></li>
+				<li><p>Text that makes sense without a visual representation</p></li>
+				<li><p>Alternative Text for every image, sound piece, or video taht is content</p></li>
+				<li><p>Text that is fit for the web (KISS: Keep It Short and simple, structured into headers, paragraphs and lists)</p></li>
+				<li><p>Explanations of Acronyms and Abbreviations</p></li>
+				<li><p>Content images need to be unambiguous for the colorblind and text in images needs to have a sufficient size and contrast</p></li>
+				<li><p>Information to the users of changes necessary to her environment.</p></li>
+			</ul>
+		</div>
+		<h1 class="h1">Presentation Layer</h1>
+		<div class="introduction">
+			<ul>
+				<p> The presentation layer is where you can define how people see your web page in a browser </p>
+				<br><br>
+				<p><b> Presentation Layer needs to: </b></p>
+				<li><p>Ensures that text can be zoomed without making the site unusable</p></li>
+				<li><p>Ensure that the interactive elements of the site are easy to find</p></li>
+				<li><p>Ensure that images and foreground and background have enough contrast and are unambiguous to the colorblind</p></li>
+				<li><p>Give the site a consistent navigation</p></li>
+				<li><p>Aid the user through business processes</p></li>
+				<li><p>Separate content into easily understandable units</p></li>
+			</ul>
+		</div>
+		<h1 class="h1">Behaviour Layer</h1>
+		<div class="introduction">
+			<ul>
+				<p> The behavior layer is where you have a real-time user interaction with the web page. The interaction may be simple validation of input or filling out a form or even as big as web-based programs</p>
+				<br><br>
+				<p><b> Behaviour Layer needs to: </b></p>
+				<li><p>Ensure that all the functionality is available to the user regardless of input device</p></li>
+				<li><p>Make the user experience as easy as possible by cutting down on options until they are necessary</p></li>
+			</ul>
+		</div>
+		<div class="introduction">
+				<p>In comparison, HTML is used to create the actual content/foundation of the page and CSS is responsible for the design or style of the website, including thelayout, visual effects, and background color</p>
+		</div>
+		<h1 class="h1">Benefits of using CSS</h1>
+		<div class="introduction">
+			<ul>
+			<p><b>CSS saves a lot of work</b></p>
+			<p> You do not have to code the CSS repeatedly into an HTML file. You just need to write the CSS code once and then reuse the same stylesheet in multiple HTML pages. This saves coding time and space of your hard disk</p>
+		
+			<p><b>Easy Maintenance</b></p>
+			<p>You can control the look and layout of several HTML pages at once. In other terms, one CSS file can control EVERY HTML file connected to the CSS file.</p>
+		
+			<p><b>Adding Style to webpage makes it more pleasing to the eye</b></p>
+			<p>Improve the appearance of a website by allowing you to create a much more stylish website since CSS offers a wide array of expressive style capableness</p>
+			</ul>
+		</div>
+		<h1 class="h1">Capabilities of CSS</h1>
+		<div class="introduction">
+			<ol>
+				<li><p>CSS makes your pages easily updateable. CSS makes it possible to update the layout of the entire page quickly. You can specify a style once and you can apply it as many times in your document.</p></li>
+				<li><p>Position objects on the page. CSS gives you control when placing objects on the page exactly where you want them</p></li>
+				<li><p>Layer objects on the page. CSS allows you to position objects in three dimensions.</p></li>
+				<li><p>Create custom tags. CSS allows you to create custom tags to achieve specialized objectives.</p></li>
+			</ol>
+		</div>
+		<h1 class="h1">Advantages of using CSS</h1>
+		<div class="introduction">
+			<ol>
+				<li><p>Save typing and development time because you have to enter CSS code only once and it can be applied to many HTML scripts.</p></li>
+				<li><p>Download faster because your browser will download only one file once.</p></li>
+				<li><p>Faster page loading.</p></li>
+				<li><p>You can also have multiple link tags in one document.</p></li>
+				<li><p>Better design flexibility.</p></li>
+				<li><p>Easier to maintain and update.</p></li>
+				<li><p>Separation of structure (HTML) and style (CSS).</p></li>
+			</ol>
+		</div>
+		<h1 class="h1">Prerequisites to Learning CSS</h1>
+		<div class="introduction">
+			<p>You should have a basic knowledge and understanding of HTML or XHTML to continue learning CSS.</p>
+		</div>
+	</div>
+	</div>
+	`,
+	stylesheets: `
+		<h1 class="h1"> Style Sheets </h1>
+	<div class="section1">
+		<h1 class="h1"> What will we use in CSS? </h1>
+		<div class="introduction2">
+			<ul>
+			<li><p>Curly Braces</p></li>
+			<li><p>Colons</p></li>
+			<li><p>Semi Colons</p></li>
+			<li><p>Selectors</p></li>
+			<li><p>Declarations</p></li>
+			</ul>
+		</div>
+		<h1 class="h1"> Structure of CSS/Syntax </h1>
+		<div class="layers">
+			<img src="syntax.jpg" alt="syntax" class="layers">
+		</div>
+		<div class="whole-section1">
+		<div class="introduction">
+			<ul>
+			<p><b> Selector </b></p>
+			<p> The HTML element you want to style; is a pattern used to "find" or "select" the HTML elements on a webpage to which a set of CSS rules will be applied. for e.g, &lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, etc.. </p>
+			<p><b>Property</b></p>
+			<p>The style attribute you want to modify; is a named characteristic or attribute that defines a specific aspect of how an HTML element should be displayed or rendered by the browser. Properties are used within CSS declarations to apply styles to selected elements.</p>
+			<p><b>Value</b></p>
+			<p>The weight of the attribute you want to apply to the element property; is the specific setting or configuration assigned to a CSS property. A property and its value form a CSS declaration, which dictates how an element should be styled</p>
+			<p><b>Declaration</b></p>
+			<p>Is a single instruction that defines a specific style for an element.</p>
+			<p><b>Declaration Block</b></p>
+			<p>Fundamental part of a CSS rule. It is a blcok of code that contains one or more CSS declarations, which define the styling rules for the selected HTML element(s)</p>
+			</ul>
+		</div>
+		</div>
+		<h1 class="h1">The Style Sheet and its Parts</h1>
+		<div class="whole-section1">
+		<div class="introduction">
+			<ul>
+				<li><p> A set of instructions to a web browser on how to display various elements on a web page is known as style sheet</p></li>
+				<li><p> Every CSS (whether it is contained in a .css file, or embedded in the head element of an HTML document) is a series of instructions called statements</p></li>
+				<ul>
+					<p><b>The statement does two things</b></p>
+					<li><p>It identifies the elements in an HTML document that it affects.</p></li>
+					<li><p>It tells the browser how to draw these elements.</p</li>
+				</ul>
+				<p>Elements are considered to be paragraphs, links, list items, and so on. In technical terms, HTML terms, an element is anything marked up inside html tags.</p>
+			</ul>
+		</div>
+		</div>
+		<h1 class="h1"> How do style sheets work </h1>
+		<div class="whole-section1">
+		<div class="introduction">
+			<ul>
+				<p> Style sheets are just text files, or text embedded in the head of an HTML document, that help separate content from appearance. The content of the page goes into an HTML file. And the appearance goes into a style sheet. But how does all this end up as a web page in the reader's browser?</p>
+				<p><b>A style sheet suggests the browser to display a page in a particular way, how the pages should be displayed in the browser </b></p>
+				<ol>
+					<p><b> There are two things that you should remember when using the CSS code: </b></p>
+					<li><p> The type attribute should always be &lt;style type="text/css"&gt;.</p></li>
+					<li><p>CSS Code should be enclosed in HTML comments &lt;!...--&gt; so that in a web browser that does not understand CSS, the browser will not see the CSS code. But today, however, all current browsers support CSS.</p></li>
+				<ol>
+			</ul>
+		</div>
+		</div>
+		<h1 class="h1"> Three Kinds of CSS </h1>
+		<div class="whole-section1">
+		<div class="introduction">
+			<ul>
+				<p><b>External Style Sheet</b></p>
+				<li><p>The most global of the three kinds of CSS because you can apply the same one to an unlimited number of pages</p></li>
+				<li><p>Allows you to develop a consistent style across pages</p></li>
+				<li><p>Easily allow you to change the layout of your entire web site by simply changing the external style sheet and every page is instantly updated</p></li>
+				<li><p>Has a .css file extension</p></li>
+				<p><b>Embedded Style Sheets (Internal)</b></p>
+				<li><p>Used for creating a document-wide style rule</p></li>
+				<li><p>Place within an HTML document, between the &lt;head&gt; and &lt;/head&gt;</p></li>
+				<li><p>Used when you have a page that you want to present in a different style from other pages</p></li>
+				<li><p>Embedded style sheets <b>override</b> external style sheets</p></li>
+				<p><b>Inline Style Sheets</b></p>
+				<li><p> Used for isolated changes to a headline, paragraph, picture or any other element </p></li>
+				<li><p> Stored directly in the style attributes of the HTML tags </p></li>
+				<li><p> Inline style sheets <b>override</b> external and embedded style sheets</p></li>
+			</ul>
+		</div>
+		</div>
+		<h1 class="h1">Syntax of the three kinds of CSS</h1>
+		<div class="whole-section1">
+		<div class="introduction">
+			<ul>
+				<p><b>External Style Sheet</b></p>
+				<p>&lt;link rel="stylesheet" href="style.css (Filename of the external file) type="text/css"&gt;</p>
+				<p><b> Embedded Style Sheet </b></p>
+				<p> &lt;style type-"text/css"&gt;&lt;/style&gt;</p>
+				<p><b> Inline Style Sheet</b></p>
+				<p>&lt;p style="background-color: violet;"&gt;</p>
+			</ul>
+		</div>
+		</div>
+		<h1 class="h1"> Embedded Style Sheet</h1>
+		<div class="whole-section1">
+		<div class="introduction">
+			<ul>
+				<p>Embedded styles or Internal Style sheets aredefined by the container tag &lt;style&gt;&lt;/style&gt; and placed withing the head part of the HTML file. It provides style to the whole HTML file. </p> 
+				<p>Inline styles are put on the exact tage where the style will be implemented while embedded styles take rather a different approach since is a document-wide style. </p>
+			</ul>
+		</div>
+		</div>
+		<h1 class="h1"> Linked Style Sheets (External) </h1>
+		<div class="whole-section1">
+			<div class="introduction">
+			<ul>
+				<li><p> A CSS file (filename.css) is a style sheet that does not contain anything but the styles. </p></li>
+				<li><p> In order for it to take effect, it needs to be linked. </p></li>
+				<li><p> A linked file is simply just like embedded styles but without all the HTML tags. </p></li>
+				<li><p>Can be written in any text editor and saved with a filename extension of .css </p></li>
+				<li><p>Using the external/linked style sheets, we can modify web pages by just changing one CSS file.</p></li>
+			</ul>
+			</div>
+			<div class="introduction">
+			<p><b>Creating an External CSS file</b></p>
+			<ol>
+				<p> The following steps will show how to create and test a basic style sheet.</p>
+				<li><p>Open a blank document in Notepad.</p></li>
+				<li><p>Type the style you want to define.</p></li>
+				<li><p>On the Menu bar, click File and Click Save</p></li>
+				<li><p>Type your filename with the extension .css and change the file type to All Files.</p></li>
+			</ol>
+			</div>
+			<div class="introduction">
+			<p><b> Linking CSS file to an HTML file </b></p>
+			<ol>
+				<li><p>After creating your CSS file, open your HTML file.</p></li>
+				<li><p> Type the following inside the HTML file in the &lt;head&gt; tag <br> &lt;link rel="stylesheet" href="sample.css" type="text/css"&gt;</p></li>
+				<li><p> Save your HTML file.</p></li>
+			</ol>
+			</div>
+		</div>
+		<h1 class="h1"> CSS Comments </h1>.
+		<div class="whole-section1">
+		<div class="introduction">
+			<p> Comments are used to explain the code, and will help you edit the source code on a later date. Comments are ignored by the browsers, therefore you can place notifications, reminders and help you increase code readablity. A CSS comment starts with <b>/* and ends with */.</b> Comments can also span multiple lines. </p>
+		</div>
+		</div>
+	</div>
+	`,
+	intro2: `
+			<h1 class="h1"> Intro To CSS Part II </h1>
+		<div class="section1">
+		<div class="whole-section2">
+			<h1 class="h1"> Display Property </h1>
+			<div class="introduction2">
+				<p> CSS Display property allows you to control how an element is displayed. </p>
+				<table>
+					<tr>
+						<th colspan="3"> <p><b> KINDS OF ELEMENTS IN CSS </b></p> </th>
+					</tr>
+					<tr>
+						<td><p><b> Kind</b></p></td>
+						<td><p><b>Description</b></p></td>
+						<td><p><b>Example</b></p></td>
+					</tr>
+					<tr>
+						<td><p><b>Block Level Elements</b></p>
+						<td><p><b>Laid out vertically</b></p>
+						<td><p><b>&lt;p&gt; text<br>&lt;p&gt; text</b></p>
+					</tr>
+					<tr>
+						<td><p><b>Inline Level Elements</b></p>
+						<td><p><b>Laid out horizontally</b></p>
+						<td><p><b>&lt;em&gt; text <br> &lt;b&gt; text</b></p>
+					</tr>
+				</table>
+			</div>
+			<h1 class="h1"> Block Level Element </h1>
+			<div class="introduction2">
+					<p> Block level elements take up as much space as possible by default. each block level element will start a new line on the page, stacking down the page. In addition to stacking vertically, block level elements will also take up as much horizontal space as possible. </p>
+					<p><b> Examples of block level elements: </b></p>
+				<ul>
+						<li><p>&lt;p&gt;</p></li>
+						<li><p>&lt;ol&gt;, &lt;ul&gt;c &lt;dl&gt;</p></li>
+						<li><p>All headings</p></li>
+						<li><p>&lt;article&gt;, &lt;section&gt;, &lt;div&gt;</p></li>
+					
+				</ul>
+			</div>
+			<h1 class="h1"> Inline Level Element </h1>
+			<div class="introduction2">
+				<p>Inline Elements display in a line. They do not force the text after them to a new line. An anchor (or link) is an example of an inline element. You can put several links in a row, and they will display in a line.</p>
+				<p><b>Examples of inline elements</b></p>
+				<ul>
+					<li><p> &lt;a&gt;</p></li>
+					<li><p> &lt;strong&gt;, &lt;em&gt;, &lt;b&gt;, &lt;i&gt;, &lt;q&gt;, &lt;mark&gt; </p>
+					<li><p> &lt;span&gt; </p></li>
+				</ul>
+				<h1> Why is this important? </h1>
+					<p><b>How an element behaves when styled with CSS will change based on the dislay mode of an element (block vs. inline).</b> Some CSS properties react differently for each display type. We'll learn more about this behaviour when we start to lay out pages in CSS.</p>
+					<br>
+					<p> For now, remember this: </p>
+					<p><b>Inline elements cannot contain block level elements</b></p>
+				<table>
+					<tr>
+						<th colspan="3"><p><b> Property For Display </b><p></th>
+					</tr>
+					<tr>
+						<th><p>Property</p></th>
+						<th><p>Keyword</p></th>
+						<th><p><b>Description</p></th>
+					</tr>
+					<tr>
+						<th><p>display:</p></th>
+						<th><p>inline</p></th>
+						<th><p>Inline display or horizontal layout.</p></th>
+					</tr>
+					<tr>
+						<th><p>display:</p></th>
+						<th><p>block</p></th>
+						<th><p>Block display or vertical layout.</p></th>
+					</tr>
+					<tr>
+						<th><p>display:</p></th>
+						<th><p>list-item</p></th>
+						<th><p>Display as a list item &lt;li&gt;.</p></th>
+					</tr>
+					<tr>
+						<th><p>display:</p></th>
+						<th><p>none</p></th>
+						<th><p>No box or the element has no effect on the layout.</p></th>
+					</tr>
+					<tr>
+						<th><p>display:</p></th>
+						<th><p>inherit</p></th>
+						<th><p>Inherit value from the parent.</p></th>
+					</tr>
+				</table>
+			</div>
+			<h1 class="h1">Div Tag</h1>
+			<div class="introduction2">
+				<ul>
+					<li><p>Div divides the contents of a web page into individual sections.</p></li>
+					<li><p>Div tag allows you to apply styles to different sections of your webpage.</p></li>
+					<li><p>It is a generic way of addidnt structure to an HTML document.</p></li>
+					<li><p>Div tag is a block level element and is therefor, usually applied to block HTML and shoud not be used within a paragraph.</p></li>
+					<li><p>In most web browsers, a div tag will provide line spacing before and after a block element.</p></li>
+				</ul>
+			</div>
+			<h1 class="h1"> Span Tag </h1>
+			<div class="introduction2">
+				<ul>
+					<li><p>Span tag is a generic way of adding structure to an HTML document.</p></li>
+					<li><p>Span is applied to an inline element</p></li>
+					<li><p>It is used to emphasize words or sentences within a paragraph.</p></li>
+				</ul>
+			</div>
+			<h1 class="h1"> Span and Div Tags </h1>
+			<div class="introduction2">
+				<ul>
+					<li><p>Span and div tags do not have default styling information.</p></li>
+					<li><p>Changing the style or formatting of the line or block covered by the tag, you need to specify an attribute to affect the desired style.</p></li>
+					<li><p>Most HTML tags apply formatting just like tags for headings, lists and others, but there are some that do not have nay specific effect, namely the container tags &lt;span&gt;&lt;/span&gt; and &lt;div&gt;&lt;/div&gt; but are actualy used quite extensively in conjuction with CSS.</p></li>
+					<li><p>Simply put, span and div tags are just used to format a part of the content usually using CSS.</p></li>
+					<li><p>The general difference between using &lt;span&gt;&lt;/span&gt; and &lt;div&gt;&lt;/div&gt; has line breaks before and after it.</p></li>
+					<li><p>Usually the &lt;span&gt;&lt;/span&gt; is used for small chunks of code whi &lt;div&gt;&lt;/div&gt; is for larger ones.</p></li>
+				</ul>
+				<table>
+					<tr>
+						<th colspan="3"><p> Attribute for &lt;span&gt;&lt;/span&gt; and &lt;div&gt;&lt;/div&gt; </p></th>
+					</tr>
+					<tr>
+						<th><p>Attribute</p></th>
+						<th><p>Definition</p></th>
+						<th><p>Values</p></th>
+					</tr>
+					<tr>
+						<th><p>Class</p></th>
+						<th><p>Indicates the CSS style to be applied. <br> Ex. &lt;div class="style1"&gt;&lt;/div&gt;</p></th>
+						<th><p>CSS class name</p></th>
+					</tr>
+				</table>
+			</div>
+		</div>
+		</div>
+	`, 
+	intro3: `
+			<h1 class="h1"> Intro To CSS Part III </h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<h1 class="h1"> CSS Rule </h1>
+				<div class="introduction2">
+					<p> A CSS rule has two main parts: a selector, and one or more list of style declarations.<br><br><b> Basic format of a CSS style rule is as follows:</b><br> For Inline style rule:<br> &lt;tag style="style decoration"&gt;<br>&lt;tag style="prop1: valuel; prop2: value; prop3: value;&gt;<br><br>For document-level and external-style sheets:<br> selector &lbrace;style declarations&rbrace;<br> selector &lbrace;prop1: value; prop2: value; prop3: value;&rbrace;</p>
+				</div>
+				<h1 class="h1"> Style Properties </h1>
+				<div class="introduction2">
+					<p>Style Properties<br>Properties are collected into six groups:</p>
+					<ol>
+						<li><p>Fonts</p></li>
+						<li><p>Colors and Backgrounds</p></li>
+						<li><p>Text</p></li>
+						<li><p>Boxes and layout</p></li>
+						<li><p>Lists</p></li>
+						<li><p>Tag classifications</p></li>
+					</ol>
+				</div>
+				<h1 class="h1">Classes</h1>
+				<div class="introduction2">
+					<p><b>What are classes?</b></p>
+					<ul>
+						<li><p>Is a user-defined selector</p></li>
+						<li><p>Used to apply a style rule to specific HTML tags</p></li>
+						<li><p>Can control individual HTML element formatting</p></li>
+						<li><p>Is a reusable style definition that allows you to apply the same set of formatting rules to multiple HTML elements <br><br> Example: You can create a class only for the paragraphs to which you have assigned the class.</p></li>
+						<li><p>Classes are defined by dots (.)</p></li>
+						<li><p>There are two methods of writing a class.</p>
+						<ol>
+							<li><p>Indicating the HTML element followed by a dot then followed by the class name (any name you want for it).<br><br>Example:<b> p.golden&lbrace;color: blue;&gt;</b></p></li>
+							<li><p>Writing the class name preceded by a dot (.)<br><br>Example:<b> .sodapop&lbrace;color: red;&rbrace;</b></p></li>
+						</ol>
+						</li>
+						<li><p>In HTML, you can apply it using the <b>class="classname"</b> attribute</p></li>
+						<li><p>The example <b> p.golden&lbrace;color: blue;&rbrace; </b> is a style that can be used on paragraphs.</p></li>
+						<li><p>The example <b> .sodapop&lbrace;color: red;&rbrace; </b> can be used on any HTML element.</p></li>
+						<li><p>A class must be called on the HTML file for it to be used. <br> How is this done? <br><br> Calling classes are done by putting the <b> class </b> attribute in the tag you want to style and the <b> class name </b> as its value</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Class Selector</h1>
+				<div class="introduction2">
+					<p><b>What are element+class selectors (element.classname)?</b></p>
+					<ul>
+						<li><p>A style applied to a particular set of elements.</p></li>
+						<li><p>MOre specific, it apply styles only if the element and class match.</p></li>
+					</ul>
+					<p><b>Why use Element + Class selectors?</b></p>
+					<ul>
+						<p><b> Class Selector (.classname)</b></p>
+						<li><p>Reusable across different elements.</p></li>
+						<p><b> Element + Class selector (p.classname)</b></p>
+						<li><p>Precise control over styling only one type of element.</p></li>
+					</ul>
+					<p><b> In summary </b></p>
+					<ul>
+						<p> .classname </p>
+						<li><p> Any element with that class.</p></li>
+						<p> element.classname </p>
+						<li><p>Only that element type with that class.</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Grouping Selectors </h1>
+				<div class="introduction2">
+					<p> You can group selectors and combine it in one CSS file. Each selector should be separated by a comma.</p>
+					<ul>
+						<p><b> From: </b></p>
+						<li><p>h1 &lbrace;color: blue;&rbrace;<br>p &lbrace;color: blue;&rbrace;<br> p&lbrace;background-color: black;&rbrace;</p></li>
+						<p><b>To: </b></p>
+						<li><p>h1,p &lbrace;color: blue;&rbrace;<br>p &lbrace;background-color: black;&rbrace;</p></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	`,
+	intro4: `
+			<h1 class="h1">Intro to CSS Part IV </h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<h1 class="h1"> CSS Selectors </h1>
+				<div class="introduction2">
+					<p> CSS selectors are used to "find" or "select" the HTML elements that you want to style.</p>
+					<p> CSS selectors are divided into 6 types:</p>
+					<ul>
+						<li><p>Class Selector</p></li>
+						<li><p>Element Selector/Tag Selector</p></li>
+						<li><p>ID Selector</p></li>
+						<li><p>Universal Selector</p></li>
+						<li><p>Group selector</p></li>
+						<li><p>Attribute Selector</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Element Selector </h1>
+				<div class="introduction2">
+					<ul>
+						<li><p>Selects HTML elements (p, div, h1, etc.) and applies CSS to them.</p></li>
+						<p> Example CSS Code: <br> p &lbrace;line-height: 1.5; font-size: 16px;&rbrace;</p>
+					</ul>
+				</div>
+				<h1 class="h1">ID Selector</h1>
+				<div class="introduction2">
+					<ul>
+						<li><p>Is a style applied to one element in a page.</p></li>
+						<li><p>Normally used once, usually in a page title or the navigation part of the page.</p></li>
+						<li><p>Defined by '#' and uses id attribute of the HTML element.</p></li>
+						<li><p>ID selectors selects the HTML element with a unique identifier (id) and adds CSS to it.</p></li>
+						<li><p>It is not advisable to start an id selector with a number because some browsers o not support it.</p></li>
+						<li><p>The ID selector is unique and selects one unique element.</p></li>
+						<p> Example HTML code: <br>&lt;div id="header"&gt;Welcome to my website&lt;/div&gt;</p>
+						<p> Example CSS code: <br>#header &lbrace;bakground-color: navy; color: white;&rbrace;</p>
+					</ul>
+				</div>
+				<h1 class="h1">Universal Selector </h1>
+				<div class="introduction2">
+					<p> The universal selector selects every single HTML element on the page. It is writted using the asterisk (*) character.</p>
+					<p> Example CSS code: <br>* &lbrace;margin: 0; padding: 0; box-sizing: border-box;</p>
+				</div>
+				<h1 class="h1">Group Selector</h1>
+				<div class="introduction2">
+					<p> The group selector allpws you to select multiple elements and apply the same style to all of them. </p>
+					<p> Example CSS code: <br> h1, h2, h3 &lbrace;colorL darkgreen; text-align: center;&rbrace;</p>
+				</div>
+				<h1 class="h1">Attribute Selector</h1>
+				<div class="introduction2">
+					<p> The attribute selector selects elements based on specific attribute values. The syntax for the attribute selector is:<br>Element[attribute]</p>
+					<p> Example CSS code:<br>input[type="text"]&lbrace;border: 1px solid gray;&rbrace;<br>input[type="submit]&lbrace;background-color: green; color: white;&rbrace;</p>
+				</div>
+				<h1 class="h1">When to use which?</h1>
+				<div class="introduction2">
+					<ul>
+						<p><b>Class Selector:</b></p>
+						<li><p>Use a class selector when you want to apply the same style to multiple elements or when elements share a common category or purpose. Use class when styling many elements that share the same style, even if they have different tags.</p></li>
+						<p><b>ID Selector:</b></p>
+						<li><p>Use an ID selector when styling a unique element that appears only once on a page.</p></li>
+						<p><b>Element/Tag Selector:</b></p>
+						<li><p>Use an element selector to style all occurences of a specific HTML tag.</p></li>
+						<p><b>Universal Selector:</b></p>
+						<li><p>Use the universal selector when you want to style all elements on the page. For example, to reset margins, padding, or box-sizing.</p></li>
+						<p><b>Group Selector:</b></p>
+						<li><p>Use a group selector when different elements share the same styling, to avoid repeating code.</p></li>
+						<p><b>Attribute Selector</b></p>
+						<li><p>Use an attribute selector when you want to style elements based on their HTML attributes or attribute.</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	`,
+	intro5: `
+			<h1 class="h1"> Intro to CSS Part V</h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<h1 class="h1"> Setting Dimensions </h1>
+				<div class="introduction2">
+					<p> CSS can be used to manage dimensions such as visibility, width or height of HTML elements. </p>
+					<table>
+						<tr>
+							<th colspan="3"><p>Property for Dimensions</p></th>
+						<tr>
+						<tr>
+							<th><p>Property</p></th>
+							<th><p>Definition</p></th>
+							<th><p>Example</p></th>
+						</tr>
+						<tr>
+							<th><p>Visibility</p></th>
+							<th><p>Indicates if an element is visible or hidden</p></th>
+							<th><p><u>visibility:visibile</u> - Default value, the value is visible<br> <u>visibility:hidden</u> - The element is hidden (but still takes up space)<br> <u>visibility:collapse</u> - Only for table rows, row groups, columns, column groups, and flex items. This value removes a row or column as if display:none were used. If collapse is used on other elements, it renders as "hidden"</p></th>
+						</tr>
+						<tr>
+							<th><p>Width</p></th>
+							<th><p>Indicates the width</p></th>
+							<th><p>width: 200px;</p></th>
+						</tr>
+						<tr>
+							<th><p>height</p></th>
+							<th><p>Indicates the height</p></th>
+							<th><p>height:auto;</p></th>
+						</tr>
+						<tr>
+							<th><p>line-height</p></th>
+							<th><p>Indicates the line spacing</p></th>
+							<th><p>line-height: 12px;</p></th>
+						</tr>
+						<tr>
+							<th><p>max-height</p></th>
+							<th><p>Indicates the maximum height</p></th>
+							<th><p>max-height: 12px;</p></th>
+						</tr>
+						<tr>
+							<th><p>min-height</p></th>
+							<th><p>indicates the minimum height</p></th>
+							<th><p>min-height: 12px;</p></th>
+						</tr>
+						<tr>
+							<th><p>max-width</p></th>
+							<th><p>Indicates the maximum width</p></th>
+							<th><p>max-width: 12px;</p></th>
+						</tr>
+						<tr>
+							<th><p>min-width</p></th>
+							<th><p>Indicates the minimum width</p></th>
+							<th><p>min-width: 12px;</p></th>
+						</tr>
+					</table>
+					<p> This CSS Feature is a good way of controlling paragraphs, tables and others. </p>
+				</div>
+				<h1 class="h1">Pseudo-Classes and Links </h1>
+				<div class="introduction2">
+					<ul>
+						<li><p>Recall that classes are user-defined selectors that can be used to control individual HTML element formatting.</p></li>
+						<li><p>Pseudo-classes are defined by a colon and are not user-defined. Specific pseudo-classes can be used on specific HTML elements only.</p></li>
+						<li><p>The anchor element has four pseudo-classes: <b>link, visited, hover and active.</b> Each one affects the behaviour of the anchor element</p></li>
+						<li><p>The <b>link</b> pseudo-class is for <b>hyperlinks</b> that have <b>NOT</b> yet visited.</p></li>
+						<li><p>The <b>visited</b> pseudo-class is for <b>visited hyperlinks.</b></p></li>
+						<li><p>The <b>hover</b> pseudo-class is for <b>hyperlinks</b> when the mouse is hovered over them.</p></li>
+						<li><p>The <b>active</b> pseudo-class is for <b>hyperlinks</b> when they are <b>clicked.</b></p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Pseudo-Classes and Links Property and Syntax</h1>
+				<div class="introduction2">
+					<ul>
+						<li><p>The order in which the pseudo-classes are stated is important.</p></li>
+						<li><p>Take note of the <b>LVHA</b> or <b><u>L</u></b>ink, <b><u>V</u></b>isited, <b><u>H</u></b>over, <b><u>A</u></b>ctive is the order of the pseudo-classes</p></li>
+					</ul>
+					<p> Note: The value that you place inside &lbrace;...&rbrace; will be displayed whenever a pseudo-class property is performed. You can set the color of the text or element, its background, its decoration and many other characters. </p>
+					<table>
+						<tr>
+							<th><p>Property</p></th>
+							<th><p>Value</p></th>
+							<th><p>Description</p></th>
+						</tr>
+						<tr>
+							<th><p>:link</p></th>
+							<th><p>a:link &lbrace;...&rbrace;</p></th>
+							<th><p>Sets unvisited link characteristic.</p></th>
+						</tr>
+						<tr>
+							<th><p>:visited</p></th>
+							<th><p>a:visited &lbrace;...&rbrace;</p></th>
+							<th><p>Sets visited link characteristic or effect.</p></th>
+						</tr>
+						<tr>
+							<th><p>:active</p></th>
+							<th><p>a:active &lbrace;...&rbrace;</p></th>
+							<th><p>Sets the character of an active link element as when the user clicks the mouse on the link.</p></th>
+						</tr>
+						<tr>
+							<th><p>:hover</p></th>
+							<th><p>a:hover &lbrace;...&rbrace;</p></th>
+							<th><p>Sets the character of a link element as when the user hovers or moves the mouse over the link.</p></th>
+						</tr>
+						<tr>
+							<th><p>:focus</p></th>
+							<th><p>a:focus &lbrace;...&rbrace;</p></th>
+							<th><p>Sets the character of an active link element as when the user click and moves the mouse on the link.</p></th>
+						</tr>
+					</table>
+					<ul>
+						<li><p>Be reminded that the hover property should be placed after the link property for it to function properly.</p></li>
+						<li><p>Pseudo-classes can alsp be used on any element or block elements on the web page, especially the hover property, so that, whenever one hovers over an image, paragraph or any element, you can set properties to make it more interactive. Example is changing the font-color, setting a background, border and many other properties.</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	`
+};
+		function loadICTLesson(lesson) {
+			const output = document.getElementById('ict-lesson-output');
+			output.classList.remove('show');
+			void output.offsetWidth;
+			output.innerHTML = ictLessons[lesson] || "<p>Lesson not found.</p>";
+			output.classList.add('show');
+			localStorage.setItem('lastSection', 'ict');
+			localStorage.setItem('lastLesson', lesson);
+			localStorage.setItem('lessonType', 'ict');
+		}
+		
+		function loadAPLesson(lesson) {
+			const output = document.getElementById('ap-lesson-output');
+			output.classList.remove('show');
+			void output.offsetWidth;
+			output.innerHTML = apLessons[lesson] || "<p>Lesson not found.</p>";
+			output.classList.add('show');
+			localStorage.setItem('lastSection', 'ap');
+			localStorage.setItem('lastLesson', lesson);
+			localStorage.setItem('lessonType', 'ap');
+		}
+		
+		const apLessons = {
+		demand: `
+		<h1 class="h1"> Demand </h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<div class="introduction2">
+					<ul>
+						<li><p>Tumutukoy sa dami ng produkto o serbisyo na gusto at kayang bilhin ng mga mamimili sa isang takdang presyo at partikular na panahon.</p></li>
+						<li><p>Nagtatakda ng kanyang pangangailangan at kagustuhan ay ang kanilang kakayahan at kagustuhan</p></li>
+					</ul>
+				</div>
+				<h1 class="introduction2">Presyo vs Demand</h1>
+				<div class="introduction2">
+					<ul>
+						<p><b> Batas ng Demand </b></p>
+						<li><p>Inverse</p></li>
+						<li><p>Kung tataas ang presyo, bababa ang quantity demanded. Kung bumaba ang presyo, tataas ang quantity demanded</p></li>
+						<h1>P&uarr; D&darr;</h1>
+						<h1>P&darr; D&uarr;</h1>
+						<li><p>Ito'y posible lamang kung <b>ceteris paribus</b></p>
+						<ul>
+							<li><p>Tanging <b>presyo</b> lamang ang umaapekto sa quantity demand</p></li>
+						</ul>
+						</li>
+						<p>Mayroong rason kung bakit mayroong Batas/Law of Demand</p>
+						<li><p><b>Substitution Effect</b></p>
+						<ul>
+							<li><p>Kung mataas ang presyo ng isang produkto/serbisyo, maghahanap ang mamimili ng mas mura ng produkto/serbisyo</p></li>
+						</ul>
+						</li>
+						<li><p><b>Income Effect</b></p>
+						<ul>
+							<li><p>Kung mataas ang income ng mamimili, tataas ang quantity demanded at bababa ang presyo. </p></li>
+						</ul>
+						</li>
+						<p><b> Mathematical Formula: </b></p>
+						<h1> D = K<sub>1</sub> + K<sub>2</sub> </h1>
+						<p>where: </p>
+						<li><p>K<sub>1</sub> = Kagustuhan</p></li>
+						<li><p>K<sub>2</sub> = Kakayahan</p></li>
+						<li><p>D = Demand</p></li>
+					</ul>
+				</div>
+				<h1 class="h1"> Mga Uri ng Pagpapakita ng Relasyon ng Quantity Demanded at Presyo</h1>
+				<div class="introduction5">
+					<div class="section2">
+						<h1 class="h1">Demand Schedule </h1>
+						<div class="introduction6">
+							<p>Tabular representation upag ipakita ang relasyon ng quantity demanded at presyo. Halimbawa:</p>
+							<table>
+								<tr>
+									<th><p> Point </p></th>
+									<th><p> Quantity Demanded (Qd)</p></th>
+									<th><p> Price (P) </p></th>
+								<tr>
+								<tr>
+									<th><p>A</p></th>
+									<th><p>1000</p></th>
+									<th><p>10</p></th>
+								</tr>
+								<tr>
+									<th><p>B</p></th>
+									<th><p>800</p></th>
+									<th><p>20</p></th>
+								</tr>
+								<tr>
+									<th><p>C</p></th>
+									<th><p>30</p></th>
+									<th><p>600</p></th>
+								</tr>
+								<tr>
+									<th><p>D</p></th>
+									<th><p>40</p></th>
+									<th><p>400</p></th>
+								</tr>
+								<tr>
+									<th><p>E</p></th>
+									<th><p>50</p></th>
+									<th><p>200</p></th>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="section2">
+						<h1 class="h1">Demand Function</h1>
+						<div class="introduction6">
+							<p>Mathematical equation upang ipakita ang relasyon ng quantity demanded at presyo</p>
+							<h1>Qd = a - bP</h1>
+						</div>
+						<h1 class="h1">Demand Curve</h1>
+						<div class="introduction2">
+							<p> Graphical representation upang ipakita ang relasyon ng quantity demanded at presyo. Halimbawa: (hover mouse over picture, there's a delay of 2 seconds though since some might accidentally hover and ruin their whole eperience.)</p>
+							<div class="curve">
+							<img src="DCURVE.jpg" alt="Demand Curve Example">
+							</div>
+						</div>
+					</div>
+				</div>
+				<h1 class="h1"> Mga salik na umaapekto sa Demand </h1>
+				<div class="whole-section2">
+					<div class="introduction2">
+						<div  class="introduction">
+							<figure>
+								<img src="INCOME.jpg" alt="Income Picture">
+								<figcaption><p><b>Income</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="POPULATION.jpg" alt="Population Picture">
+								<figcaption><p><b>Population</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="PANLASA.jpg" alt="Favorite Picture">
+								<figcaption><p><b>Panlasa</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="COMPSUB.jpg" alt="Complementary and Substitute Products picture">
+								<figcaption><p><b>Complementary<br>And<br>Substitute<br>Products</b></p></figcaption>
+							</figure>
+						</div>
+						<div class="introduction">
+							<figure>
+								<img src="EXPECTEDEVENTS.jpg" alt="Expected Events Picture">
+								<figcaption><p><b>Expected<br>Events</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="OCCASION.jpg" alt="Occasion Picture">
+								<figcaption><p><b>Occasion</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="PANAHON.jpg" alt="Panahon Image">
+								<figcaption><p><b>Panahon</b></p></figcaption>
+							</figure>
+						</div>
+					</div>
+					<h1 class="h1">Change/Shift in Demand Graph</h1>
+					<div class="introduction5">
+						<div class="curvechange">
+							<img src="DCURVECHANGE.jpg" alt="Shift in Demand Curve">
+						</div>
+						<p> Sa graph na ito, pinapakita na tumaas ang Quantity demanded galing sa pulang linya hanggang sa purple line, kung ito naman ay baligtad at bumase tayo sa purple line papunta sa pulang linya, magpapakita dito na bumaba ang Quantity demanded sa graph</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		`,
+		supply: `
+		<h1 class="h1">Supply</h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<div class="introduction2">
+					<p>Tumutukoy sa dami ng produkto/serbisyo na gustong ibenta ng producer sa isang partikular na presyo at partikular na panahon </p>
+				</div>
+				<h1 class="h1">Price vs Supply</h1>
+				<div class="introduction2">
+					<ul>
+						<p><b> Batas ng Supply </b></p>
+						<li><p>Direct</p></li>
+						<li><p>Kung tataas ang presyo, tataas ang supply. Kung bumaba ang presyo, bababa ang supply</p></li>
+						<h1>P&uarr; S&uarr;</h1>
+						<h1>P&darr; S&darr;</h1>
+						<li><p>Ito'y posible lamang kung <b>ceteris paribus</b></p>
+						<br><br>
+						<p><b> Mathematical Formula: </b></p>
+						<h1> Qs = P + K</h1>
+						<p>where: </p>
+						<li><p>P = Pagnanais</p></li>
+						<li><p>K = Kakayahan</p></li>
+						<li><p>Qs = Quantity of Supply</p></li>
+					</ul>
+				</div>
+				<h1 class="h1"> Mga Uri ng Pagpapakita ng Relasyon ng Quantity of Supply at Presyo</h1>
+				<div class="introduction5">
+					<div class="section1">
+						<h1 class="h1">Supply Schedule </h1>
+						<div class="introduction2">
+							<p>Tabular representation upag ipakita ang relasyon ng quantity of supply at presyo. Halimbawa:</p>
+							<table>
+								<tr>
+									<th><p> Point </p></th>
+									<th><p> Quantity of Supply (Qs)</p></th>
+									<th><p> Price (P) </p></th>
+								<tr>
+								<tr>
+									<th><p>A</p></th>
+									<th><p>1000</p></th>
+									<th><p>10</p></th>
+								</tr>
+								<tr>
+									<th><p>B</p></th>
+									<th><p>1200</p></th>
+									<th><p>20</p></th>
+								</tr>
+								<tr>
+									<th><p>C</p></th>
+									<th><p>1400</p></th>
+									<th><p>600</p></th>
+								</tr>
+								<tr>
+									<th><p>D</p></th>
+									<th><p>1600</p></th>
+									<th><p>400</p></th>
+								</tr>
+								<tr>
+									<th><p>E</p></th>
+									<th><p>1800</p></th>
+									<th><p>200</p></th>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="section1">
+						<h1 class="h1">Supply Function</h1>
+						<div class="introduction2">
+							<p>Mathematical equation upang ipakita ang relasyon ng quantity of supply at presyo</p>
+							<h1>Qs = -a - bP</h1>
+						</div>
+						<h1 class="h1">Supply Curve</h1>
+						<div class="introduction2">
+							<p> Graphical representation upang ipakita ang relasyon ng quantity of supply at presyo. Halimbawa: (hover mouse over picture, there's a 2 second delay again for our safety.)</p>
+							<div class="curve">
+								<img src="SCURVE.jpg" alt="Supply Curve Example">
+							</div>
+						</div>
+					</div>
+				</div>
+				<h1 class="h1"> Mga salik na umaapekto sa Supply </h1>
+				<div class="whole-section2">
+					<div class="introduction2">
+						<div  class="introduction">
+							<figure>
+								<img src="TECHNOLOGY.jpg" alt="Technology Picture">
+								<figcaption><p><b>Technology</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="PANAHON.jpg" alt="Panahon Picture">
+								<figcaption><p><b>Panahon</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="PRODUCTIONCOSTS.jpg" alt="Production Costs Picture">
+								<figcaption><p><b>Production<br>Costs</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="PRODUCTPRICE.jpg" alt="Product Price Image">
+								<figcaption><p><b>Product<br>Price</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="PRODUCTQUANTITY" alt="PRODUCT QUANTITY">
+								<figcaption><p><b>Product<br>Quantity</b></p></figcaption>
+							</figure>
+						</div>
+						<div class="introduction">
+							<figure>
+								<img src="EXPECTEDEVENTS.jpg" alt="Expected Events">
+								<figcaption><p><b>Expected<br>Events</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="PRODUCTSHELFLIFE.jpg" alt="Product Shelf Life Picture">
+								<figcaption><p><b>Product<br>Shelf<br>Life</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="SUBSIDY.jpg" alt="Subsidy Picture">
+								<figcaption><p><b>Subsidy</b></p></figcaption>
+							</figure>
+							<figure>
+								<img src="CALAMITIES.jpg" alt="Calamities Picture">
+								<figcaption><p><b>Calamities</b></p></figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+				<h1 class="h1">Change/Shift in Demand Graph</h1>
+				<div class="whole-section1">
+				<div class="introduction5">
+					<div class="curvechange">
+						<img src="SCURVECHANGE.jpg" alt="Shift in Supply Curve">
+					</div>
+					<p> Sa graph na ito, pinapakita na tumaas ang supply galing sa S<sub>1</sub> papuntang S<sub>2</sub>, kung ito naman ay S<sub>1</sub> papuntang S<sub>3</sub>, ito'y bumaba.</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		`,
+		elasticity:`
+		<h1 class="h1">Price Elasticity</h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<div class="introduction2">
+					<ul>
+					<li><p> Tumutukoy sa bahagdan ng pagbabago sa dami ng demand at supply batay sa pagbabago sa presyo </p></li>
+					</ul>
+				</div>
+				<h1 class="h1"> Price Elasticity of Demand </h1>
+				<div class="introduction">
+					<ul>
+						<li><p>Tugon ng mamimili sa pabago-bagong presyo ng mga produkto at serbisyo batay sa konsepto ng batas ng demand.</p></li>
+						<h1><img src="PED.jpg" alt="Price Elasticity of Demand Formula" style="border-radius: 10px;"></h1>
+					</ul>
+				</div>
+				<h1 class="h1"> Price Elasticity of Supply </h1>
+				<div class="introduction">
+					<ul>
+						<li><p>Ang price elasticity of supply ay ang paraan na ginagamit upang masukat ang magiging pagtugon sa quantity supplied ng mga prodyuser sa tuwing may pagbabago sa presyo nito.</p></li>
+						<h1><img src="PES.jpg" alt="Price Elasticity of Supply Formula" width="500px" style="border-radius: 10px;"></h1>
+					</ul>
+				</div>
+				<h1 class="h1"> Kinds of Price Elasticity </h1>
+				<div class="introduction2">
+					<table>
+						<tr>
+							<th><p>Uri</p></th>
+							<th><p>Coeffecient</p></th>
+						</tr>
+						<tr>
+							<th><p>Elastic</p></th>
+							<th><p>/E/ > 1, %&#9651;Q > %&#9651;P</p></th>
+						</tr>
+						<tr>
+							<th><p>Inelastic</p></th>
+							<th><p>/E/ < 1, %&#9651;P > %&#9651;Q</p></th>
+						</tr>
+						<tr>
+							<th><p>Unitary</p></th>
+							<th><p>/E/ = 1, %&#9651;Q = %&#9651;P</p></th>
+						</tr>
+						<tr>
+							<th><p>Perfectly Elastic</p></th>
+							<th><p>/E/&infin;</p></th>
+						</tr>
+						<tr>
+							<th><p>Perfectly Inelastic</p></th>
+							<th><p>/E/0</p></th>
+						</tr>
+					</table>
+					<img src="ELASTIC.jpg" alt="Elastic Graphs" width="600px" style="border-radius: 10px; border-style: solid; border-color: white;">
+				</div>
+			</div>
+		</div>
+		`,
+		equilibrium:`
+		<h1 class="h1">Market Equilibrium</h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<div class="introduction2">
+					<ul>
+						<li><p>Kung saan nagkikita o nagtatagpo ang quantity of supply at quantity demanded</p></li>
+						<li><p>Graphically, kung saan nag-iintersect ang quantity of supply at quantity demanded</p></li>
+						<li><p>Mathematically, Qs = Qd</p></li>
+					</ul>
+				</div>
+				<h1><img src="EQUILIBRIUM.jpg" alt="Equilibrium Graph Example" width="500px" style="border-radius: 10px;"></h1>
+				<div class="introduction2">
+					<p>Marami tayong masasabi base sa graph</p>
+					<ul>
+						<p><b>Equilibrium:</b></p>
+						</li><p>Ang point na kung saan nagtagpo ang demand at supply</p></li>
+						<p><b>Surplus</b></p>
+						</li><p>Ang bahagi ng graph kung saan mas mataas ito kesa sa equilibrium</p></li>
+						</li><p>P&uarr; = D&darr; = S&uarr;</p></li>
+						<p><b>Shortage</b></p>
+						</li><p>Ang bahagi ng graph kung saan mas mababa ito kesa sa equilibrium</p></li>
+						</li><p></p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Law of Supply and Demand</h1>
+				<div class="introduction2">
+					<ul>
+						<li><p> Kung mababa ang Quantity Demanded, mataas ang Quantity of Supply. Kung mababa ang Quantity of Supply, mataas ang Quantity Demanded</p></li>
+						<li><p> Inverse </p></li>
+					</ul>
+					<h1>D&uarr;, S&darr;</h1>
+					<h1>D&darr;, S&uarr;</h1>
+				</div>
+			</div>
+		</div>
+`,
+		marketStructures:`
+		<h1 class="h1">Different Market Structures</h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<h1 class="h1"> 3 Elements of a Market </h1>
+				<div class="introduction2">
+					<ul>
+						</li><p>Mamimili</p></li>
+						</li><p>Produsyer</p></li>
+						</li><p>Produkto</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Difference of Each Kind of Market</h1>
+				<div class="introduction2">
+					<ul>
+						</li><p>Bilang at Laki ng produsyer</p></li>
+						</li><p>Uri ng produkto</p></li>
+						</li><p>Kontrol sa pagpasok sa pamiliham</p></li>
+						</li><p>Kontrol sa Presyo</p></li>
+						</li><p>Paggamit ng di-presyong kompetisyon</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Kinds of Markets</h1>
+				<div class="introduction2">
+					<ul>
+						</li><p>Local</p></li>
+						</li><p>Regional</p></li>
+						</li><p>National</p></li>
+						</li><p>Worldwide</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Ganap na Kompetisyon</h1>
+					<div class="introduction2">
+						<h1><img src="COMPETITION.jpg" alt="Ganap na Kompetisyon Picture" width="500px" style="border-radius: 10px;"></h1>
+						<p>Isang estruktura ng pampamilihan na kung saan ang indibidwal na kalakalan ay may kontrol sa presyo ng kalakalan</p>
+						<ol>
+							</li><p>Maraming konsyumer at prodyuser sa industriya</p></li>
+							</li><p>Ang mga produkto ng mga kalakalan sa industriya ay magkakatulad</p></li>
+							</li><p>Ang mga kalakalan sa industriya ay tinatawag na price takers</p></li>
+							</li><p>Malayang nakapapasok at nakalalabas ang mga kalakalan sa produksyon</p></li>
+							</li><p>Walang kontrol sa presyo</p></li>
+						</ol>
+					</div>
+				<h1 class="h1">Di-Ganap na Kompetisyon</h1>
+				<div class="introduction2">
+					<h1><img src="INDIRECT.jpg" alt="Di-Ganap na Kompetisyon Picture" width="500px" style="border-radius: 10px;"></h1>
+					<table>
+						<tr>
+							<th><p>Monopoly</p></th>
+							<th><p>Iisa ang produsyer, Ang produkto ay walang malapit na kapalit, Ang monopolista ang price maker ng produkto, Mahirap pumasok ang mga bagong produsyer dito, maaring mag-anunsyo ng produkto o hindi</p></th>
+						</tr>
+						<tr>
+							<th><p>Oligopoly</p></th>
+							<th><p>Kakaunti lamang ang mga produsyer, Ang mga produkto ay maaaring magkakatulad o magkakaiba, malaki ang kontrol ng mga kalakalan pagdating sa presyo, mahira pumasok sa ganitong pamahalaan, gumagastos ng malaki ang mga kalakalan sa pag-aanunsyo, pananaliksik, at pag-unlad</p></th>
+						</tr>
+						<tr>
+							<th><p>Monopolistic Competition</p></th>
+							<th><p>May katamtamang dami ng mga produsyer at konsyumer, ang mga industriya ay agresibong nakikipagkompetensya sa isa't isa, mayroon malawakang pag-aanunsyo, may kaunting kontrol sa presyo dahil sa pagkakaiba-iba ng produkto, madali lang pumasok ang mga bagong produsyer.</p></th>
+						</tr>
+						<tr>
+							<th><p>Monopsony</p></th>
+							<th><p>Mayroon lamang iisang konsyumer, ngunit maraming produsyeer ng produkto/serbisyo, may kapangyarihan ang mga konsume na maimpluwensiyahan ang presyo sa pamilihan</p></th>
+						</tr>
+					<table>
+				</div>
+			</div>
+		</div>
+`,
+		governmentRegulation:`
+		<h1 class="h1"> Government's Role in Regulating in Everyday Life </h1>
+		<div class="section1">
+			<div class="whole-section2">
+				<h1 class="h1">Price Control</h1>
+				<div class="introduction">
+					<h1><img src="CONTROL.jpg" alt="Price Control Picture" width="500px" style="border-radius: 10px;"></h1>
+					<ul>
+						<li><p>Gives the government the ability to control the price of product</p></li>
+						<li><p><b>R.A 7581</b></p>
+						<ul>
+							<li><p>Price Control Act</p></li>
+							<li><p>National Price Coordination Council</p></li>
+						</ul>
+						</li>
+					</ul>
+				</div>
+				<h1 class="h1">Price Ceiling</h1>
+				<div class="introduction">
+					<h1><img src="CEILING.jpg" alt="Ganap na Kompetisyon Picture" width="500px" style="border-radius: 10px;"></h1>
+					<ul>
+						<li><p>Highest price placed by the government in able buy a product</p></li>
+						<li><p>The government do this to help and give us protection against abusers and opportunistic businessmen</p></li>
+						<li><p>Below equilibrium price that circulates in the market</p></li>
+						<li><p>If price ceiling is in the equilibrium, some may not be able to afford it</p></li>
+						<li><p>Placed to balance the market if the price is TOO high</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Price Freeze</h1>
+				<div class="introduction">
+					<h1><img src="FREEZE.jpg" alt="Ganap na Kompetisyon Picture" width="500px" style="border-radius: 10px;"></h1>
+					<ul>
+						<li><p> Price of a primary product is NOT ALLOWED to go high or low for a certain period of time to protect us, especially in times of crisis listed below:</p></li>
+						<li><p>Happens during: State of Calamity, Pandemic, Storms r Calamities, Inflation rate, etc.</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Price Support</h1>
+				<div class="introduction">
+					<ul>
+						<li><p>Government supports producer</p></li>
+					</ul>
+				</div>
+				<h1 class="h1">Floor Price</h1>
+				<div class="introduction">
+					<h1><img src="FLOOR.jpg" alt="Ganap na Kompetisyon Picture" width="500px" style="border-radius: 10px;"></h1>
+					<ul>
+						<li><p>Lowest price placed by the government for a certain product</p></li>
+						<li><p>Above equilibrium price that circulates in the market</p></li>
+						<li><p>Placed to balance the market if price is TOO low</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		`
+};
+
+		window.addEventListener('DOMContentLoaded', () => {
+		const lastSection = localStorage.getItem('lastSection');
+		const lastLesson = localStorage.getItem('lastLesson');
+		const lessonType = localStorage.getItem('lessonType');
+		
+
+		if (lastSection) showSection(lastSection);
+
+		if (lessonType === 'ict' && lastLesson) {
+		loadICTLesson(lastLesson);
+		} else if (lessonType === 'ap' && lastLesson) {
+		loadAPLesson(lastLesson);
+		} else if (lessonType === 'events') {
+		showSection('events');
+		}
+});
+	</script>
+	</body>
+</html>

@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+background-color: #bcd2e8;
+}
+
+h1 {
+font-family: Microsoft YaHei UI;
+color: white;
+text-align: center;
+}
+
+nav {
+background-color:#91bad6;
+border-style: solid;
+border-color: white;
+border-radius: 10px;
+display: flex;
+flex-shrink: 0;
+align-items: center;
+gap: 0.3%;
+}
+
+button {
+border-style: none;
+background-color: #789dbc;
+color: white;
+display: inline-block;
+border-radius: 5px;
+margin: 5px 5px 5px 5px;
+border-color: white;
+line-height: 0px;
+transition: all 0.5s ease;
+transform: scale(1);
+box-shadow: 0px 0px 2px white;
+}
+
+button:hover {
+animation-name: button;
+animation-direction: forward;
+animation-timing-function: ease
+animation-fill-mode: both;
+animation-duration: 0.5s;
+transform: scale(1.1);
+box-shadow: 0px 0px 10px white;
+}
+
+button:not:hover {
+animation-name: button;
+animation-direction: reverse;
+animation-timing-function: ease;
+animation-fill-mode: both;
+animation-duration: 0.5s;
+transform: scale(1.1);
+box-shadow: 0px 0px 10px white;
+}
+
+@keyframes button {
+0% {
+transform: scale(1.0);
+box-shadow: 0px 0px 2px white;
+}
+100% {
+transform: scale(1.1);
+box-shadow: 0px 0px 5px white;
+}
+}
+
+p {
+font-family: "Montserrat", sans-serif;
+font-size: 20px;
+color: white;
+}
+
+.logo {
+max-height: 50px;
+margin: 2px 2px 2px 2px;
+transition: all 0.5s ease;
+padding-left: 20px;
+padding-right: 20px;
+transform: scale(1.7);
+
+}
+.logo:hover {
+transform: scale(1.9);
+}
+
+section {
+display: none;
+padding: 40px;
+animation: fade 0.5s ease-in-out;
+margin: 0 auto;
+}
+
+section.active {
+display: block;
+}
+
+@keyframes fade {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+.main-section {
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+gap: 20px;
+}
+
+.sub-section {
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 10px;	
+}
+.sub-sub-section {
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+gap: 10px;	
+}
+
+.h1 {
+text-align: center;
+font-family: "Montserrat", sans-serif;
+background-color: #91bad6;
+color: white;
+border-style: solid;
+border-color: white;
+border-radius: 5px;
+padding: 10px;
+}
+
+.content {
+border-style: solid;
+border-radius: 10px;
+border-color: white;
+padding: 10px;
+display: flex;
+flex-direction: column;
+flex-shrink: 0;
+background-color: #91bad6;
+}
+
+.lesson {
+text-decoration: none;
+display: inline;
+}
+
+.introduction {
+display: flex;
+border-style: solid;
+border-radius: 10px;
+border-color: white;
+background-color: #91bad6;
+gap: 20px;
+justify-content: center;
+padding: 10px;
+}
+
+.introduction2 {
+display: inline-flex;
+border-style: solid;
+border-radius: 10px;
+border-color: white;
+padding: 10px;
+background-color: #91bad6;
+flex-direction: column;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.introduction3 {
+display: flex;
+border-style: solid;
+border-radius: 10px;
+border-color: white;
+background-color: #91bad6;
+justify-content: center;
+padding: 10px;
+transition: 0.5s;
+}
+
+.introduction3a {
+display: flex;
+border-style: hidden;
+border-radius: 10px;
+border-color: white;
+background-color: #91bad6;
+justify-content: center;
+padding: 10px;
+transition: 0.5s;
+}
+
+.introduction4 {
+display: flex;
+border-style: solid;
+border-radius: 10px;
+border-color: white;
+background-color: #91bad6;
+justify-content: center;
+align-items: center;
+padding: 10px;
+transition: 0.5s;
+margin-left: 230px;
+margin-right: 230px;
+flex-direction: column;
+}
+
+.introduction5 {
+display: inline-flex;
+border-style: solid;
+border-radius: 10px;
+border-color: white;
+padding: 10px;
+background-color: #91bad6;
+flex-direction: row;
+margin-left: 200px;
+margin-right: 200px;
+gap: 0px;
+}
+
+.introduction6 {
+display: inline-flex;
+border-style: solid;
+border-radius: 10px;
+border-color: white;
+padding: 10px;
+background-color: #91bad6;
+flex-direction: column;
+margin-left:100px;
+margin-right:100px;
+}
+
+
+h2 {
+font-family: "Montserrat", sans-serif;
+color: white;
+display: block;
+margin: 0px;
+}
+
+.alger {
+max-height: 500px;
+border-style: none;
+border-radius: 50px;
+transition: 0.3s;
+}
+
+.alger:hover {
+transform: scale(1.05);	
+}
+
+.intro {
+border-style: solid;
+border-radius: 50px;
+border-color: white;
+padding: 0px;
+display: flex;
+flex-direction: column;
+flex-shrink: 0;
+}
+
+.slideshow {
+width: 400px;
+height: 300px;
+position: relative;
+margin: auto;
+overflow: hidden;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.slideshow:hover {
+transform:scale(1.05);
+}
+
+.slides img {
+width: 100%;
+height: 100%;
+position: absolute;
+opacity: 0;
+transition: opacity 0.8s ease-in-out;
+}
+
+input[type=radio] {
+display: none;
+}
+
+#slide1:checked ~ .slides img:nth-child(1),
+#slide2:checked ~ .slides img:nth-child(2),
+#slide3:checked ~ .slides img:nth-child(3) {
+  opacity: 1;
+}
+
+.nav {
+position: absolute;
+bottom: 10px;
+width: 100%;
+text-align: center;
+}
+
+.nav label {
+display: inline-block;
+width: 12px;
+height: 12px;
+margin: 4px;
+background: #ccc;
+border-radius: 50%;
+cursor: pointer;
+}
+
+input#slide1:checked ~ .nav label[for=slide1],
+input#slide2:checked ~ .nav label[for=slide2],
+input#slide3:checked ~ .nav label[for=slide3] {
+background: #91bad6;
+}
+
+.video1 {
+max-height: 300px;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+.video1:hover {
+transform: scale(1.05);
+}
+
+.family {
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.5s;
+}
+
+.family:hover {
+transform: scale(1.01);
+}
+
+.family-pics {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+border-style: solid;
+border-color: white;
+border-radius: 100px;
+width: fit-content;
+height: fit-content;
+overflow: hidden;
+}
+
+.family-pics img {
+max-width: 60vw;
+max-height: 60vh;
+}
+
+.music-text {
+border-style: solid;
+background-color: #91bad6;
+color: white;
+display: flex;
+border-radius: 5px;
+margin: 5px 5px 5px 5px;
+border-color: white;
+transition: all 0.5s ease;
+transform: scale(1);
+box-shadow: 0px 0px 2px white;
+padding: 10px;
+text-align: center;
+justify-content: center;
+max-width: 80vw;
+align-items: center;
+}
+
+.music-center {
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+li {
+color: white;
+justify-content: center;
+}
+
+.section1 {
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.section1a {
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+margin-left: 100px;
+margin-right: 100px;
+border-style: solid;
+border-color: white;
+border-radius: 10px;
+}
+
+.section2 {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.layers {
+max-height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+border-style: solid;
+border-color: white;
+border-radius: 50px;
+width: fit-content;
+height: fit-content;
+overflow: hidden;
+transition: 0.5s;
+}
+
+.layers:hover {
+transform: scale(1.05);
+}
+
+.whole-section1 {
+display: flex;
+flex-direction: row;
+gap: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.whole-section2 {
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-left: 100px;
+margin-right: 100px;
+align-items: center;
+}
+
+.whole-section3 {
+display: flex;
+flex-direction: row;
+gap: 20px;
+margin-left: 100px;
+margin-right: 100px;
+align-items: center;
+}
+
+.layers-introduction {
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+
+.lesson-content {
+opacity: 0;
+transition: opacity 0.6s ease;
+border: 2px solid white;
+border-radius: 10px;
+padding: 20px;
+margin-top: 20px;
+color: white;
+text-align: left;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+
+.lesson-content.show {
+opacity: 1;
+}
+
+table th, td {
+border-style: solid;
+border-color: white;
+border-radius: 5px;
+text-align: center;
+background-color: #789dbc;
+}
+
+figure {
+border-style: solid;
+border-radius: 10px;
+border-color: white;	
+overflow: hidden;
+}
+figure img {
+max-width: 175px;
+}
+
+figcaption {
+text-align: center;	
+}
+
+.curve {
+height: auto;
+width: auto;
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+.curve img {
+max-width: 200px;
+border-radius: 10px;
+transition: 0.5s;
+transition-delay: 0s;
+}
+
+.curve img:hover {
+transform: scale(3);
+transition-delay: 2s;
+}
+
+.curvechange img {
+max-width: 500px;
+height: auto;
+border-radius: 10px;
+}
+
+.img {
+max-width: 400px;
+}
+
+th img {
+max-width: 300px;
+}
+
+.figure {
+transition: 0.5s;
+border-radius: 10px;
+}
+
+.figure:hover {
+transform: scale(1.15);
+}
+
+.video {
+max-width: 1180px;
+display: flex;
+justify-content: center;
+border-color: white;
+border-style: solid;
+border-radius: 10px;
+}
+
+.video-landscape{
+max-width: 1180px;
+display: flex;
+justify-content: center;
+border-color: white;
+border-style: solid;
+border-radius: 10px;
+max-height: 400px;
+}
+
+.video-portrait {
+max-width: 1180px;
+display: flex;
+justify-content: center;
+border-color: white;
+border-style: solid;
+border-radius: 10px;
+max-height: 650px;
+}
+
+.nofig {
+transition: 0.5s;
+border-radius: 10px;
+margin-bottom: 20px;
+border-style: hidden;
+}
+
+.nofig:hover {
+transform: scale(1.11);
+}
